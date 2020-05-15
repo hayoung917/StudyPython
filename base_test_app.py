@@ -36,5 +36,5 @@ for item in lists:
     get_sum += item['박스오피스']
 direc = list(set(direc))
 print("감독 리스트 : ", direc)
-print('총 합 : ', get_sum)
-print('평균 : ', get_sum/9)
+print('총 합 : $ {:,}'.format(get_sum))
+print('평균 : $ {:,}'.format(get_sum/9))

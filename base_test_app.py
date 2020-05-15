@@ -34,7 +34,7 @@ for item in dic_mcu:
 get_sum = 0
 for item in lists:
     get_sum += item['박스오피스']
-lists = list(set(direc))
-print("감독 리스트 : ", lists)
+direc = list(set(direc))
+print("감독 리스트 : ", direc)
 print('총 합 : ', get_sum)
 print('평균 : ', get_sum/9)
